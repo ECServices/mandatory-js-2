@@ -1,0 +1,19 @@
+div {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 70px;
+  line-height: 2.3;
+}
+
+#board {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  flex-grow: 1;
+  width: 32%;
+}
